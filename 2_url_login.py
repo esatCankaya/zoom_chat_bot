@@ -42,6 +42,7 @@ x1, y1, x2, y2 = 1228, 55, 1589, 729
 # once you set right coordinates, set a time for loop to work and set set how often you want it to run.
 
 burda_count = 0
+Burda_count = 0
 
 print('Starting loop...')
 
@@ -56,7 +57,7 @@ while time.time() - start_time < 7200:
     burda_count = text.count('burda')
     
     # Check if the string "..." is present in the screenshot
-    if burda_count >= 3:
+    if bburdaCount + burda_count >= 3:
         # If the word is found, perform some tasks with pyautogui
         pyautogui.moveTo(836, 32)
         pyautogui.click()
