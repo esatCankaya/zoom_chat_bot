@@ -1,4 +1,4 @@
-                                                                Zoom Meeting Attendance
+                                        Zoom Meeting Attendance
 
 This Python code allows you to automatically join a Zoom meeting and mark your attendance. The code uses PyAutoGUI and Pytesseract libraries, and the Tesseract OCR engine to perform Optical Character Recognition (OCR).
 
