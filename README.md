@@ -6,16 +6,19 @@ Install the Tesseract OCR engine for your operating system. You can download it 
 
 INSTALLATION:
 
-Install the required libraries pyautogui and pytesseractby
+Install the required libraries: pyautogui and pytesseractby
+https://pypi.org/project/pytesseract/
+https://tesseract-ocr.github.io/tessdoc/Installation.html
 
-Set specific values for your computer and Zoom meeting in the code. Make sure that your Zoom app is updated to the latest version.
+Set specific values of your computer and Zoom meeting in the code. Make sure that your Zoom app is updated to the latest version.
 
 USAGE:
 
-There are three different sections of the code to use, depending on how you want to join the Zoom meeting.
+There are four different sections of the code to use, depending on how you want to join the Zoom meeting.
 
+Use tools.py to find right coordinates to click and screenshot.
 Use the #1 section of the code if you already have the Zoom app open and the chat box is visible.
 Use the #2 section of the code if you have the meeting ID and password.
 Use the #3 section of the code if you have the meeting invite link (URL).
 
-** This code is written to work on macbook m1 if you are using a different computer you need to adjust the code.
+*** This code is written to work on macbook m1 using jupiter notebook if you are using a different computer you need to adjust the code.
